@@ -1,8 +1,8 @@
 # 🌾 Anvaya Dhaara
 
-        ==>   FROM   SOIL  TO   SOUL
+### *From Soil to Soul*
 
-Anvaya Dhaara is a cultural web application aimed at showcasing Indian agriculture, traditions, and farming practices through a digital platform.
+Anvaya Dhaara is a cultural web application designed to showcase Indian agriculture, traditions, and farming practices through a digital platform.
 
 ---
 
@@ -16,16 +16,18 @@ Anvaya Dhaara is a cultural web application aimed at showcasing Indian agricultu
 
 * Information on traditional farming methods
 * Cultural insights related to agriculture
-* User-friendly UI for educational purposes
+* User-friendly interface for educational purposes
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Technologies Used
 
-* HTML, CSS, JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ---
 
 ## 🎯 Objective
 
-To create awareness about traditional agricultural systems and preserve cultural knowledge through a modern web interface.
+To create awareness about traditional agricultural systems and preserve cultural knowledge using modern web technologies.
