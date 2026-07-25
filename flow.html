@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flow - Anvaya Dhaara</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="flow-page">
+
+  <!-- NAVBAR (moved inside body) -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h2 class="logo">ANVAYA DHAARA</h2>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+
+  <!-- BACKGROUND -->
+  <div class="bg-animated"></div>
+
+  <section class="flow-container">
+
+    <!-- HERO -->
+    <div class="flow-hero">
+ <h1 class="hero-title">
+  It begins with something we cannot see.
+</h1>
+
+<p class="hero-sub">
+  But it becomes something we cannot live without.
+</p>
+
+<p class="hero-line">
+  This is not just farming. This is survival.
+</p>
+    </div>
+    <!-- STEP 1 -->
+    <div class="flow-item left">
+      <div class="flow-content">
+        <img src="images/seeds.webp">
+        <h2><span class="step">01.</span> It Begins with a Seed</h2>
+
+        <p class="reveal-text">
+          It begins with something almost invisible.
+          A seed—silent, small, but full of unseen life.
+          <br><br>
+          Not planted with certainty…
+          but with hope.
+        </p>
+      </div>
+
+      <div class="flow-points">
+        <ul>
+          <li>Not all seeds are bought — some are remembered</li>
+          <li>Passed from generation to generation</li>
+          <li>The future begins before it is visible</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="flow-connector">Time doesn’t rush. It allows life to unfold.</p>
+
+    <!-- STEP 2 -->
+    <div class="flow-item right">
+      <div class="flow-content">
+        <img src="images/soil.avif">
+        <h2><span class="step">02.</span> Growth Begins</h2>
+
+        <p class="reveal-text">
+          Beneath the surface, something magical happens.
+          <br><br>
+          The earth accepts the seed.
+          The water listens.
+          The sun responds.
+          <br><br>
+          And life… quietly begins.
+        </p>
+      </div>
+
+      <div class="flow-points">
+        <ul>
+          <li>Soil is not land — it is living memory</li>
+          <li>Water is not resource — it is lifeline</li>
+          <li>Growth is slow… but never random</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="flow-connector">What we nurture… shapes what we become.</p>
+
+    <!-- STEP 3 -->
+    <div class="flow-item left">
+      <div class="flow-content">
+        <img src="images/aa.avif">
+        <h2><span class="step">03.</span> Daily Care</h2>
+
+        <p class="reveal-text">
+          This is where human hands meet nature.
+          <br><br>
+          Not machines. Not shortcuts.
+          But effort… repeated every single day.
+          <br><br>
+          Care is not an action here.
+          It is a way of life.
+        </p>
+      </div>
+
+      <div class="flow-points">
+        <ul>
+          <li>Every day is a decision to continue</li>
+          <li>Every failure is silently carried</li>
+          <li>Every crop is a story of patience</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="flow-connector">Nothing grows without waiting.</p>
+
+    <!-- STEP 4 -->
+    <div class="flow-item right">
+      <div class="flow-content">
+        <img src="images/harvest.png">
+        <h2><span class="step">04.</span> Harvest Time</h2>
+
+        <p class="reveal-text">
+          After months of uncertainty,
+          something finally returns.
+          <br><br>
+          Not just crops—
+          but relief, survival, and dignity.
+          <br><br>
+          What reaches your plate…
+          is someone’s entire season.
+        </p>
+      </div>
+
+      <div class="flow-points">
+        <ul>
+          <li>Harvest is not profit — it is survival</li>
+          <li>Weather decides more than humans</li>
+          <li>Every grain carries unseen effort</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="flow-connector">But this is not the end.</p>
+
+    <!-- STEP 5 -->
+    <div class="flow-item left">
+      <div class="flow-content">
+        <img src="images/13.jpg">
+        <h2><span class="step">05.</span> Carrying It Forward</h2>
+
+        <p class="reveal-text">
+          The story doesn’t stop here.
+          <br><br>
+          It asks a question—
+          will we continue this flow…
+          or break it?
+          <br><br>
+          The future is not waiting.
+          It is depending on us.
+        </p>
+      </div>
+
+      <div class="flow-points">
+        <ul>
+          <li>Tradition needs continuation, not replacement</li>
+          <li>Youth is not separate from farming</li>
+          <li>Innovation should respect roots</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="flow-main-message">
+      From something we cannot see… to something we cannot live without.
+    </p>
+    <p class="flow-connector">
+  And the story continues… with us.
+</p>
+
+    <p class="flow-connector">
+      You don’t just consume food. You consume a journey.
+    </p>
+
+  </section>
+ <script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+document.querySelectorAll('.flow-item').forEach(el => {
+  observer.observe(el);
+});
+</script>
+<a href="soul.html" class="next-fixed">Next →</a>
+</body>
+
+</html>
