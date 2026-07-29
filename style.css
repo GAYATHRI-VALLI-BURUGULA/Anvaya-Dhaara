@@ -56,10 +56,10 @@ html {
 /* ===================== HERO ===================== */
 .hero {
   background: url('images/hero.jpg') center/cover no-repeat;
-
+}
   .hero img {
     filter: brightness(85%);
-  }
+  
 
   min-height: 100vh;
   color: white;
