@@ -60,7 +60,6 @@ html {
   .hero img {
     filter: brightness(85%);
   }
-
   min-height: 100vh;
   color: white;
   position: relative;
